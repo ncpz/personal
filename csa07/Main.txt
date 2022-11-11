@@ -32,4 +32,8 @@ WHERE Price BETWEEN 10 AND 25
 AND Unit = "Boxes";
 
 9.
+SELECT * FROM NorthwindFullData
+WHERE OrderDate BETWEEN '1996-08-01' AND '1996-08-31';
 
+10.
+Cái operator này buổi trước anh chưa nói ạ.
