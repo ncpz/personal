@@ -1,0 +1,25 @@
+1.
+SELECT * FROM NorthwindFullData
+WHERE Country = "Mexico";
+
+2.
+SELECT DISTINCT COUNTRY FROM NorthwindFullData;
+
+3.
+SELECT * FROM NorthwindFullData
+WHERE Country = "Canada" AND Country = "United States" AND Country = "Mexico";
+
+4.
+SELECT CustomerName FROM NorthwindFullData
+WHERE Country = "United States" NOT City = "San Francisco";
+
+5.
+SELECT Name, Unit FROM NorthwindFullData
+
+6.
+SELECT * FROM NorthwindFullData
+ORDER BY Price DESC;
+
+7.
+SELECT   FROM NorthwindFullData
+ORDER BY Price 
